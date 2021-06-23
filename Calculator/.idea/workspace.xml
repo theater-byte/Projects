@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90213f70-e5a1-400b-a2fb-de7ad2f6bba3" name="Default Changelist" comment="">
+    <list default="true" id="90213f70-e5a1-400b-a2fb-de7ad2f6bba3" name="Default Changelist" comment="fix the actions with M">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Calculator/CalcHimself.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/CalcHimself.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CalcHimself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalcHimself.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -118,9 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -148,7 +158,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix the actions with M" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the actions with M" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Calculator$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1624192857709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Calculator$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1624292162230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
 
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
         CalcHimself calculator = new CalcHimself();
 
         System.out.println("Hi! insert a number, math operation sign, and second number. Also this calculator has two cells " +
@@ -12,30 +12,25 @@ public class Main {
 
 
         Scanner scanner = new Scanner(System.in);       // get the user's input;
-
             while (true){
                 String str = scanner.nextLine();
-
                 if(str.equals("exit")){                     //exit condition;
                     System.out.println("Logout....");
                     return;
                 }
-
                 if(str.equalsIgnoreCase("m1")){
                     calculator.setM1(calculator.getResult());
-                    System.out.println(calculator.getM1());
+                    System.out.println("M1: "+ calculator.getM1()+", "+"M2: "+ calculator.getM2());
                     continue;
                 }
 
                 if(str.equalsIgnoreCase("m2")){
                     calculator.setM2(calculator.getResult());
-                    System.out.println(calculator.getM2());
+                    System.out.println("M1: "+ calculator.getM1()+", "+"M2: "+ calculator.getM2());
                     continue;
                 }
-
                 calculator.calculate(str);
-
-                System.out.println(calculator.getResult());
+                System.out.println("Result is: "+calculator.getResult() + "        "+ "M1: "+ calculator.getM1()+", "+"M2: "+ calculator.getM2());
             }
 
     }
